@@ -1,42 +1,204 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Playfair+Display&display=swap');
+
+@media(min-width:300px)and (max-width:580px){
+.container-logo {
   text-align: center;
 }
+#logo{
+  margin-top: 5vh;
+  width: 35vh;
+}
+.pLogin{
+  text-align: center;
+  font-family: 'Cardo', serif;
+  font-size: 3.5vh;
+  color: #13311F;
+}
+.formLogin{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+ }
+ .labelLogin{
+ text-align: center;
+ font-family: 'Cardo', serif;
+ color:#13311F;
+ font-size: 2.8vh;
+ margin-bottom: -2vh;
+ }
+ .inputLogin{
+   width: 40vh;
+   height: 4vh;
+   border: 0.3vh solid #13311F;
+   border-radius: 3vh;
+   background-color: #13311f00;
+ }
+ .inputLogin::placeholder{
+   color: #b45d32;
+   font-family: 'Playfair Display', serif;
+   font-size: 2vh;
+ }
+ .buttonLogin{
+   margin-top: 2vh;
+   width: 40vh;
+   height: 5vh;
+   background-color: #D86F3C;
+   border-style: none;
+   border-radius: 3vh;
+   font-size: 2.8vh;
+   color: #13311F;
+   font-family: 'Cardo', serif;
+ }
+}
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+@media(min-width:581px) and (max-width:750px){
+  .container-logo {
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+  #logo{
+    margin-top: 5vh;
+    width: 37vh;
+  }
+  .pLogin{
+    text-align: center;
+    font-family: 'Cardo', serif;
+    font-size: 40px;
+    color: #13311F;
+  }
+  .formLogin{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   }
+   .labelLogin{
+   text-align: center;
+   font-family: 'Cardo', serif;
+   color:#13311F;
+   font-size: 30px;
+   margin-bottom: -2vh;
+   }
+   .inputLogin{
+     width: 40vh;
+     height: 4vh;
+     border: 0.3vh solid #13311F;
+     border-radius: 3vh;
+     background-color: #13311f00;
+   }
+   .inputLogin::placeholder{
+     color: #b45d32;
+     font-family: 'Playfair Display', serif;
+     font-size: 18px;
+   }
+   .buttonLogin{
+     margin-top: 2vh;
+     width: 40vh;
+     height: 5vh;
+     background-color: #D86F3C;
+     border-style: none;
+     border-radius: 3vh;
+     font-size: 2.8vh;
+     color: #13311F;
+     font-family: 'Cardo', serif;
+   }
+ }
+
+@media(min-width:751px) and (max-width:950px){
+  .container-logo {
+    text-align: center;
+  }
+  #logo{
+    margin-top: 5vh;
+    width: 37vh;
+  }
+  .pLogin{
+    text-align: center;
+    font-family: 'Cardo', serif;
+    font-size: 35px;
+    color: #13311F;
+  }
+  .formLogin{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+  }
+  .labelLogin{
+  text-align: center;
+  font-family: 'Cardo', serif;
+  color:#13311F;
+  font-size: 30px;
+  margin-bottom: -2vh;
+  }
+  .inputLogin{
+    width: 40vh;
+    height: 4vh;
+    border: 0.3vh solid #13311F;
+    border-radius: 3vh;
+    background-color: #13311f00;
+  }
+  .inputLogin::placeholder{
+    color: #b45d32;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+  }
+  .buttonLogin{
+    margin-top: 2vh;
+    width: 40vh;
+    height: 5vh;
+    background-color: #D86F3C;
+    border-style: none;
+    border-radius: 3vh;
+    font-size: 2.8vh;
+    color: #13311F;
+    font-family: 'Cardo', serif;
   }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@media(min-width:951px){
+  .container-logo {
+    text-align: center;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  #logo{
+    margin-top: 5vh;
+    width: 37vh;
+  }
+  .pLogin{
+    text-align: center;
+    font-family: 'Cardo', serif;
+    font-size: 35px;
+    color: #13311F;
+  }
+  .formLogin{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+  }
+  .labelLogin{
+  text-align: center;
+  font-family: 'Cardo', serif;
+  color:#13311F;
+  font-size: 30px;
+  margin-bottom: -2vh;
+  }
+  .inputLogin{
+    width: 40vh;
+    height: 4vh;
+    border: 0.3vh solid #13311F;
+    border-radius: 3vh;
+    background-color: #13311f00;
+  }
+  .inputLogin::placeholder{
+    color: #b45d32;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+  }
+  .buttonLogin{
+    margin-top: 2vh;
+    width: 40vh;
+    height: 5vh;
+    background-color: #D86F3C;
+    border-style: none;
+    border-radius: 3vh;
+    font-size: 2.8vh;
+    color: #13311F;
+    font-family: 'Cardo', serif;
+  }
 }
