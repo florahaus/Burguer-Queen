@@ -1,0 +1,9 @@
+import React from "react"
+
+const Botao = ((props) => {
+  return(
+      <button className={props.className} type={props.type} onClick={props.onClick} >{props.text}</button>
+  )
+});
+
+export default Botao;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

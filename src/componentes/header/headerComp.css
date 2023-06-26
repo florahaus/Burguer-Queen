@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Playfair+Display&display=swap');
+
+@media (max-width:580px){
+    .container-logo {
+        text-align: center;
+      }
+      #logo{
+        margin-top: 5vh;
+        width: 35vh;
+      }
+}
+@media(min-width:581px) and (max-width:750px){
+    .container-logo {
+        text-align: center;
+      }
+      #logo{
+        margin-top: 5vh;
+        width: 37vh;
+      }
+}
+@media(min-width:751px) and (max-width:950px){
+    .container-logo {
+        text-align: center;
+      }
+      #logo{
+        margin-top: 5vh;
+        width: 37vh;
+      }
+}
+@media(min-width:951px){
+    .container-logo {
+        text-align: center;
+      }
+      #logo{
+        margin-top: 5vh;
+        width: 45vh;
+      }
+}

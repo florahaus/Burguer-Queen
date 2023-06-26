@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Playfair+Display&display=swap');
+
+@media(max-width:580px){
+.pLogin{
+  text-align: center;
+  font-family: 'Cardo', serif;
+  font-size: 3.5vh;
+  color: #13311F;
+}
+}
+
+@media(min-width:581px) and (max-width:750px){
+ 
+  .pLogin{
+    text-align: center;
+    font-family: 'Cardo', serif;
+    font-size: 32px;
+    color: #13311F;
+  }
+  
+ }
+
+@media(min-width:751px) and (max-width:950px){
+  .pLogin{
+    text-align: center;
+    font-family: 'Cardo', serif;
+    font-size: 35px;
+    color: #13311F;
+  }
+}
+@media(min-width:951px){
+  .pLogin{
+    text-align: center;
+    font-family: 'Cardo', serif;
+    font-size: 35px;
+    color: #13311F;
+  }
+
+}

@@ -1,0 +1,9 @@
+import React from "react"
+
+const Input = ((props) => {
+  return(
+      <input className={props.className} placeholder={props.placeholder} onChange={props.onChange} name={props.name} type={props.type}/>
+  )
+});
+
+export default Input;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

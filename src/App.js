@@ -1,18 +1,24 @@
-import HeaderComponent from './componentes/header/headerComp';
-import './App.css';
-import InputLogin from './componentes/inputs/inputLogin';
+import Login from "./pages/Login/Login";
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Login/>,
+  },
+  {
+    path: "/pedidos",
+    element: <div>Hello world!</div>,
+  },
+]);
 
 function App() {
   return (
-    <div>
-    <HeaderComponent/>
-    <h3 className='pLogin'>LOGIN</h3>
-    <div>
-      <InputLogin/>
-    </div>
-    </div>
+    <RouterProvider router={router} />
   );
 }
-
 
 export default App;
