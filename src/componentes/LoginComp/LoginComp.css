@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Playfair+Display&display=swap');
+
+@media(max-width:580px) {
+    .formLogin {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .labelLogin {
+        text-align: center;
+        font-family: 'Cardo', serif;
+        color: #13311F;
+        font-size: 2.8vh;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    .inputLogin {
+        width: 40vh;
+        height: 4vh;
+        border: 0.3vh solid #13311F;
+        border-radius: 3vh;
+        background-color: #13311f00;
+    }
+
+    .inputLogin::placeholder {
+        color: #b45d32;
+        font-family: 'Playfair Display', serif;
+        font-size: 2vh;
+    }
+
+    .botaoLogin {
+        margin-top: 6vh;
+        width: 40vh;
+        height: 5vh;
+        background-color: #D86F3C;
+        border-style: none;
+        border-radius: 3vh;
+        font-size: 2.8vh;
+        color: #13311F;
+        font-family: 'Cardo', serif;
+    }
+    .paragrafoErroLogin{
+        color: #b45d32;
+        font-family: 'Cardo', serif;
+        font-size: 10px;
+    }
+}
+
+@media(min-width:581px) and (max-width:750px) {
+    .formLogin {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .labelLogin {
+        text-align: center;
+        font-family: 'Cardo', serif;
+        color: #13311F;
+        font-size: 30px;
+        margin-bottom: 2vh;
+        margin-top: 2vh;
+    }
+
+    .inputLogin {
+        width: 40vh;
+        height: 4vh;
+        border: 0.3vh solid #13311F;
+        border-radius: 3vh;
+        background-color: #13311f00;
+    }
+
+    .inputLogin::placeholder {
+        color: #b45d32;
+        font-family: 'Playfair Display', serif;
+        font-size: 18px;
+    }
+
+    .botaoLogin {
+        margin-top: 6vh;
+        width: 40vh;
+        height: 5vh;
+        background-color: #D86F3C;
+        border-style: none;
+        border-radius: 3vh;
+        font-size: 2.8vh;
+        color: #13311F;
+        font-family: 'Cardo', serif;
+    }
+    .paragrafoErroLogin{
+        color: #b45d32;
+        font-family: 'Cardo', serif;
+        font-size: 23px;
+    }
+}
+
+@media(min-width:751px) and (max-width:950px) {
+    .formLogin {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .labelLogin {
+        text-align: center;
+        font-family: 'Cardo', serif;
+        color: #13311F;
+        font-size: 30px;
+        margin-bottom: 2vh;
+        margin-top: 2vh;
+    }
+
+    .inputLogin {
+        width: 45vh;
+        height: 5vh;
+        border: 0.3vh solid #13311F;
+        border-radius: 3vh;
+        background-color: #13311f00;
+    }
+
+    .inputLogin::placeholder {
+        color: #b45d32;
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+    }
+
+    .botaoLogin {
+        align-self: center;
+        margin-top: 6vh;
+        width: 45vh;
+        height: 6vh;
+        background-color: #D86F3C;
+        border-style: none;
+        border-radius: 3vh;
+        font-size: 30px;
+        color: #13311F;
+        font-family: 'Cardo', serif;
+    }
+    .paragrafoErroLogin{
+        color: #b45d32;
+        font-family: 'Cardo', serif;
+        font-size: 10px;
+    }
+}
+
+@media(min-width:951px) {
+    .formLogin {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .labelLogin {
+        text-align: center;
+        font-family: 'Cardo', serif;
+        color: #13311F;
+        font-size: 30px;
+        margin-bottom: 2vh;
+        margin-top: 2vh;
+    }
+
+    .inputLogin {
+        width: 40vh;
+        height: 4vh;
+        border: 0.3vh solid #13311F;
+        border-radius: 3vh;
+        background-color: #13311f00;
+    }
+
+    .inputLogin::placeholder {
+        color: #b45d32;
+        font-family: 'Playfair Display', serif;
+        font-size: 18px;
+    }
+
+    .botaoLogin {
+        margin-top: 6vh;
+        width: 40vh;
+        height: 5vh;
+        background-color: #D86F3C;
+        border-style: none;
+        border-radius: 3vh;
+        font-size: 2.8vh;
+        color: #13311F;
+        font-family: 'Cardo', serif;
+    }
+    .paragrafoErroLogin{
+        color: #b45d32;
+        font-family: 'Cardo', serif;
+        font-size: 10px;
+    }
+}

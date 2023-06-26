@@ -1,4 +1,6 @@
 import logo from '../../imagens/logo.png'
+import './HeaderComp.css'
+
 const HeaderComponent = () => {
     return (
         <header className="container-logo">
